@@ -15,7 +15,7 @@ body {
    color: hsl(0, 0%, 7%);
 }
 .card {
-  width: 320px;
+  width: 280px;
   margin: 0 auto;
 
   background-color: hsl(0, 0%, 100%);
