@@ -1,74 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Figtree', sans-serif;
-    background-color:  hsl(47, 88%, 63%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    color:  hsl(0, 0%, 7%);
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+   color: hsl(0, 0%, 7%);
 }
-.card{
-    width: 320px;
-    margin:0 auto;
-    background-color:hsl(0, 0%, 100%) ;
-    border-radius: 25px;
-    padding: 20px 15px;
-    border: 1px solid black;
-    box-shadow: 6px 6px 0 rgba(0, 0, 0,2);
+.card {
+  width: 320px;
+  margin: 0 auto;
 
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  padding: 20px 15px;
+  border: 1px solid black;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 2);
 }
-.preview{
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+.preview {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-button{
-    border: none;
-    background-color: hsl(47, 88%, 63%);
-    font-weight: 800;
-    letter-spacing: 0;
-    font-size:12px ;
-    border-radius: 8px;
-    margin: 10px 0;
-    padding: 5px 10px;
+button {
+  border: none;
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  letter-spacing: 0;
+  font-size: 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 5px 10px;
 }
-h1{
-    font-size: 20px;
-    font-weight: 800;
-    margin: 10px 0;
-
+h1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 0;
 }
-h1:hover{
-    color:hsl(47, 88%, 63%);
-    background-color: hsl(0, 0%, 100%);
-    cursor: pointer;   
+h1:hover {
+  color: hsl(47, 88%, 63%);
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
-.description{
-    font-weight: 600;
-    font-size: 16px;
-    color: hsl(0, 0%, 42%);
-    margin: 10px 0;
+.description {
+  font-weight: 600;
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+  margin: 10px 0;
 }
-div .author{
-    display: flex;
-    align-items: center;
-    margin-top: 12px;
+div .author {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
 }
-.author img{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-right: 10px;
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
-.author p{
-    font-size: 13px;
-    font-weight: 800;
+.author p {
+  font-size: 13px;
+  font-weight: 800;
 }
